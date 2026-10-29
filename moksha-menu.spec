@@ -1,4 +1,5 @@
 %define commit 9b6f18badb8c4c88225a429c405e5194d8f5b56c
+%define tarname Moksha-menu
 
 Name:           moksha-menu
 Version:        1.0
@@ -7,7 +8,7 @@ Summary:        Freedesktop.org menu specification files for Moksha
 License:        LGPL-2.1-only
 Group:          Graphical desktop/Other
 URL:            https://github.com/BodhiDev/Moksha-menu
-Source0:        https://github.com/BodhiDev/Moksha-menu/archive/%{commit}.tar.gz#%{name}-%{commit}.tar.gz
+Source0:        https://github.com/BodhiDev/Moksha-menu/archive/%{commit}.tar.gz#%{tarname}-%{commit}.tar.gz
 
 BuildSystem:    autotools
 BuildArch:      noarch
